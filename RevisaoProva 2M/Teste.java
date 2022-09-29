@@ -19,12 +19,12 @@ import java.util.Scanner;
 public class Teste{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // Tempo t = new Tempo();
+        Tempo t = new Tempo();
         // Tempo g = new Tempo();
         // Tempo h = new Tempo();
         Estacionamento e = new Estacionamento();
 
-        // t.setHoras(16);
+        t.setHoras(16);
         // t.setMinutos(58);
         // t.setSegundos(45);
         
@@ -42,14 +42,11 @@ public class Teste{
 
         e.exibir();
 
-
         // int a = t.subtrair(g, h);
 
         // System.out.println(h.subtrair(g, h));
         // System.out.println(t.somar(g, h));
 
-
-        
 
 
     }
