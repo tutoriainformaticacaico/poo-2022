@@ -32,6 +32,7 @@ public class Teste{
         Aluno a[] = new Aluno[3];
         Turma t = new Turma();
 
+        //definindo algumas notas padrões para indicar aos aluno
         double notas1[] = {10.0, 8.0, 7.5, 7,9};
         double notas2[] = {5.0, 5.0, 5.0, 5,0};
         double notas3[] = {2.0, 2.0, 2.0, 2,9};
