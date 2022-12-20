@@ -23,5 +23,21 @@ public class Estudante {
         }
         return false;
     }
+
+    public void maiorNota(){
+        NotaDisciplina nota = notas.get(0);
+        for (int i = 0; i < notas.size(); i++) {
+            if (notas.get(i) != null) {//verificar se nao está nulo
+                if (notas.get(i).getNota()>nota.getNota()) {//verificar a maior nota
+                    nota = notas.get(i);
+                }
+            }
+        }
+        if (nota == null) {
+            System.out.println("Estudante ainda nao possui notas");
+        }else{
+            System.out.println("Sua maior nota foi: "+nota.getNota()+"\nMateria: "+nota.getDisciplina());
+        }
+    }
     
 }
