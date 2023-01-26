@@ -63,6 +63,7 @@ public class Main{
         for (int i = 0; i < agenda.getPessoas().length; i++) {
             tipo = 0;
             sc.nextLine();
+            //Conhecido
             if (agenda.getPessoa(i).getClass().getName().equals("Amigo")) {
                 tipo = 1;
                 System.out.println("Amigo n"+(i+1)+"°");

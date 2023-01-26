@@ -5,7 +5,7 @@ public class Amigo extends Pessoa{
         super();
         dataAniversario = "indefinido";
     }
-
+    
     public Amigo(String nome, int idade, String dataAniversario){
         super(nome, idade);
         this.dataAniversario = dataAniversario;
